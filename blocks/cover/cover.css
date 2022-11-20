@@ -1,0 +1,29 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    margin: 92px 48px 0;
+    width: 1184px;
+    min-height: 740px;
+}
+
+.cover {
+    position: relative;
+    z-index: 1;
+}
+
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: #000;
+    opacity: 0.3;
+    transition: opacity 350ms ease;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
+}
