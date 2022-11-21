@@ -4,9 +4,6 @@
     margin: 92px 48px 0;
     width: 1184px;
     min-height: 740px;
-}
-
-.cover {
     position: relative;
     z-index: 1;
 }
@@ -26,4 +23,28 @@
 
 .cover:hover::before {
     opacity: 0.8;
+}
+
+@media (max-width: 1279px) {
+    .cover {
+        margin: 92px 0 0;
+        width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .cover {
+        margin: 90px 0 0;
+        width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover {
+        margin: 66px 0 0;
+        width: 320px;
+        min-height: 200px;
+    }
 }

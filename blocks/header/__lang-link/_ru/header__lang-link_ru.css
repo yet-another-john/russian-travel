@@ -3,3 +3,10 @@
     height: 28px;
     text-decoration: underline;
 }
+
+@media (max-width: 767px) {
+    .header__lang-link_ru {
+        width: 22px;
+        height: 20px;
+    }
+}

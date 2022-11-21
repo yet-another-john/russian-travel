@@ -10,3 +10,25 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media (max-width: 1279px) {
+    .cover__title {
+        margin: 195px 232px 0;
+    }
+}
+
+@media (max-width: 1023px) {
+    .cover__title {
+        margin: 115px 104px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover__title {
+        margin: 33px 16px 0;
+        min-width: 288px;
+        min-height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -6,3 +6,9 @@
     padding-bottom: 24px;
     background-color: #2A2C2F;
 }
+
+@media (max-width: 767px) {
+    .content {
+        padding-top: 16px;
+    }
+}
