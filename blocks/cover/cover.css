@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     margin: 92px 48px 0;
-    width: 1184px;
     min-height: 740px;
     position: relative;
     z-index: 1;
@@ -19,7 +18,7 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-color: #000;
+    background-color: #2A2C2F;
     opacity: 0.3;
     transition: opacity 350ms ease;
 }
@@ -28,23 +27,47 @@
     opacity: 0.8;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1279px) and (min-width: 1025px) {
     .cover {
-        margin: 92px 0 0;
-        width: 1024px;
+        margin: 92px auto 0;
+        max-width: 1024px;
         min-height: 640px;
     }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
     .cover {
-        margin: 90px 0 0;
-        width: 768px;
+        margin: 92px 0 0;
+        max-width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 769px) {
+    .cover {
+        margin: 90px auto 0;
+        max-width: 768px;
         min-height: 480px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .cover {
+        margin: 90px 0 0;
+        max-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 321px) {
+    .cover {
+        margin: 66px auto 0;
+        width: 320px;
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
     .cover {
         margin: 66px 0 0;
         width: 320px;
