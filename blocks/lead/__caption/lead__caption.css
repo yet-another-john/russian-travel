@@ -1,25 +1,25 @@
 .lead__caption {
-    margin: 8px 0 0;
-    padding: 0;
-    min-width: 158px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+  margin: 8px 0 0;
+  padding: 0;
+  min-width: 158px;
+  font-family: 'Inter', 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 @media (max-width: 1023px) {
-    .lead__caption {
-        margin: 8px 0 0 24px;
-    }
+  .lead__caption {
+    margin: 8px 0 0 24px;
+  }
 }
 
 @media (max-width: 767px) {
-    .lead__caption {
-        margin: 8px 0 0 16px;
-    }
+  .lead__caption {
+    margin: 8px 0 0 16px;
+  }
 }
