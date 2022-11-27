@@ -8,17 +8,29 @@
   .intro {
     margin: 92px auto 0;
   }
+
+  @media (width: 1024px) {
+    .intro {
+      margin: 92px 48px 0;
+    }
+  }
 }
 
 @media (max-width: 1023px) and (min-width: 768px) {
   .intro {
     margin: 92px auto 0;
   }
+
+  @media (width: 768px) {
+    .intro {
+      margin: 88px 24px 0;
+    }
+  }
 }
 
-@media (max-width: 767px) and (min-width: 320px) {
+@media (max-width: 767px) {
   .intro {
-    margin: 88px auto 0;
+    margin: 64px auto 0;
     max-width: 288px;
   }
 }

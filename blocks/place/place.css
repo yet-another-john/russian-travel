@@ -17,6 +17,7 @@
   .place {
     margin-top: 76px;
     column-gap: 28px;
+    row-gap: 43px;
   }
 }
 
