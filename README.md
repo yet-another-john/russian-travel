@@ -1,6 +1,1 @@
-Проект выполнен, как одностраничный сайт (посадочная страница) на тему "Путешествие по России". 
-Проект содержит информацию об интересных местах в России.
-
-==========
-
-Ознакомиться с проектом можно по ссылке https://stoliarovea.github.io/russian-travel/index.html
+Project: https://stoliarovea.github.io/russian-travel/index.html
